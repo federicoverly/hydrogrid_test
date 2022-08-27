@@ -1,47 +1,45 @@
-# Getting Started with Create React App
+# Hydrogrid test
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hydrogrid test done with react and typescript.
 
-## Available Scripts
+## Running the app
 
-In the project directory, you can run:
+Donwload the zip or clone the repository. Run
 
-### `npm start`
+```bash
+npm install
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+to install the dependencies. Once dependencies are installed, run
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```bash
+npm start
+```
 
-### `npm test`
+to start the application.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+You can also take a look at the live project [here](https://hydrogrid-test.vercel.app/)
 
-### `npm run build`
+## Libraries
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The project uses a couple of libraries:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Chart JS
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Chart JS for the data visualization. In this case, the project uses a mixed chart of bar and line.
 
-### `npm run eject`
+### Material UI and Styled components
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Material UI and styled components for the styling of elements, making available the reusability of them while building on the already developed Material UI options.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### jspdf and HTML-to-image
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+These libraries are used to make available the download as PDF.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### react-full-screen
 
-## Learn More
+Quite a useful library to facilitate making available for some components to go fullscreen.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-# hydrogrid_test
+[MIT](https://choosealicense.com/licenses/mit/)
